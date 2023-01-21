@@ -1,0 +1,11 @@
+{
+    "OrderManagement": true,
+    "PosManager": true,
+    "ProductManagement": true,
+    "CustomerManagement": true,
+    "SellerManagement": true,
+    "PaymentSystem": true,
+    "RefundSystem": true,
+    "OfflineManagement": true,
+    "PromotionManagement": true
+}
