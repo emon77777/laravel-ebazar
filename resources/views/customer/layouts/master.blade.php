@@ -11,10 +11,10 @@
     <title>@yield('title')</title>
 
     <!-- Apple Favicon -->
-    <link rel="apple-touch-icon" href="{{ asset('uploads') }}/{{ maanAppearance('favicon') }}">
+    {{-- <link rel="apple-touch-icon" href="{{ asset('uploads') }}/{{ maanAppearance('favicon') }}"> --}}
 
     <!-- All Device Favicon -->
-    <link rel="icon" href="{{ asset('uploads') }}/{{ maanAppearance('favicon') }}">
+    {{-- <link rel="icon" href="{{ asset('uploads') }}/{{ maanAppearance('favicon') }}"> --}}
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="{{ asset('customer/css/bootstrap.min.css') }}">
