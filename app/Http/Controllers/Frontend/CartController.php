@@ -29,7 +29,6 @@ class CartController extends Controller
 //            $cart[$id]['total'] = $cart[$id]['price'] * $cart[$id]['quantity'];
 //            $cart[$id]['shipping_cost'] = $cart[$id]['shipping_cost'] * $cart[$id]['quantity'];
 //        }else{
-
             $quantity = is_numeric($quantity) ? $quantity : 1;
             $cart[$id.rand(10000,99999)] = [
                 'id' => $product->id,
